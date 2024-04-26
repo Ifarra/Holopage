@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #ffffff;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.section1 {
+  width: 100%;
+  min-height: 0;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+section {
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  background-color: #ffffff;
+}
+
+.section1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../public/img/kobofg.png") top center;
+  background-size: cover;
+  transform: translateZ(-1px) scale(2.01);
+  filter: var(--bright);
+}
+.section1::after {
+  content: "";
+  width: 100%;
+  height: 101%;
+  position: absolute;
+  background: url("../../public/img/top.svg") top center;
+  background-size: cover;
+}
+.section1 .text {
+  font-family: "Pacifico", cursive;
+  top: 0%;
+  transform: translateZ(-0.7px) scale(1.6, 1.6) translate(-16.5vw, 6vh);
+}
+
+.section2 {
+  background: rgb(68, 35, 19);
+}
+.text {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  font-family: "Franklin Gothic Heavy";
+  font-size: 15vw;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    5px 5px 70px rgba(255, 255, 255, 0.5);
+  transform: scale(1, 1.1) translate(-50%, 10%);
+}
+.textsmol {
+  visibility: hidden;
+}
+
+.addtop {
+  height: 200px;
+  width: auto;
+  background-image: url("../../public/img/bot.svg");
+}
