@@ -53,6 +53,10 @@ section {
   transform: translateZ(-0.7px) scale(1.6, 1.6) translate(-16.5vw, 6vh);
 }
 
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
 .section2 {
   background: rgb(68, 35, 19);
 }
