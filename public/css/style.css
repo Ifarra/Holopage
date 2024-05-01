@@ -1,99 +1,4 @@
 /*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
-
-/*------------------------------------*\
-    Table of contents
-\*------------------------------------*/
-
-/*------------------------------------------------
-
-CSS STRUCTURE:
-
-1. VARIABLES
-
-2. GENERAL TYPOGRAPHY
-  2.1 General Styles
-  2.2 Floating & Alignment
-  2.3 Forms
-  2.4 Lists
-  2.5 Code
-  2.6 Tables
-  2.7 Spacing
-  2.8 Utilities
-  2.9 Misc
-    - Row Border
-    - Zoom Effect
-  2.10 Buttons
-    - Button Sizes
-    - Button Shapes
-    - Button Color Scheme
-    - Button Aligns
-  2.11 Section
-    - Hero Section
-    - Section Title
-    - Section Paddings
-    - Section Margins
-    - Section Bg Colors
-    - Content Colors
-    - Content Borders
-
-3. EXTENDED TYPOGRAPHY
-  3.1 Blockquote / Pullquote
-  3.2 Text Highlights
-
-4. CONTENT ELEMENTS
-  4.1 Tabs
-  4.2 Accordions
-
-5. BLOG STYLES
-  5.1 Blog Single Post
-  5.2 About Author
-  5.3 Comments List
-  5.4 Comments Form3
-
-6. SITE STRUCTURE
-  6.1 Header
-    - Header Menu
-    - Nav Sidebar
-  6.2 Billboard
-  6.3 About Us Section
-  6.4 Video Section
-  6.5 Selling Products Section
-  6.6 Quotation Section
-  6.7 Latest Blogs Section
-  6.8 Newsletter Section
-  6.9 Instagram Section
-  6.10 Footer
-    - Footer Top
-    - Footer Bottom
-
-7. OTHER PAGES
-  7.1 About Page
-  7.2 Product Detail
-    -Quantity
-  7.3 Shop Page & Blog Page
-    -Sidebar
-    -Pagination
-  7.4 Shop List Page
-  7.5 Single Product
-   -Single Product Information
-   -Product Tabs
-  7.6 Single Post Page
-  7.7 Cart Page
-  7.8 Wishlist Page
-  7.9 Checkout Page
-  7.10 Home2 Page
-   -Billboard
-   -Video Section
-   -Categories
-  7.11 Coming Soon Page
-  7.12 Login Page
-  7.13 Error Page
-  7.14 Styles Page
-
-    
-/*--------------------------------------------------------------
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
@@ -1459,13 +1364,7 @@ blockquote cite {
     transition: none;
   }
 }
-.accordion-button:not(.collapsed)::after {
-  background-image: url(
-    data:image/svg + xml,
-    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"fill="%23212529"%3e%3cpathfill-rule="evenodd"d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e
-  );
-  transform: rotate(-180deg);
-}
+
 .accordion-button::after {
   flex-shrink: 0;
   width: 1.25rem;
