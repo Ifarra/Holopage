@@ -866,12 +866,11 @@ img.insta-image {
 }
 img.large-image {
   width: 100%;
-  height: 1005;
+  height: 100%;
   object-fit: cover;
 }
 img.small-image {
   width: 100%;
-  height: 390px;
   object-fit: cover;
 }
 img.single-image {
@@ -3056,4 +3055,29 @@ section.categories .category-content a {
   100% {
     background-positon-x: 0px;
   }
+}
+
+@media screen and (max-width: 1200px) {
+  .left-content {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.posts-entry .blog-entry-search-item .img-link {
+  width: 280px;
+  border-radius: 0;
+}
+
+.posts-entry .blog-entry .img-link {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.me-4 {
+  margin-right: 1.5rem !important;
 }

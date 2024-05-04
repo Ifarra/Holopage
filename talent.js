@@ -102,6 +102,21 @@ function sendTalent(res) {
 
 function sendTalentdesc(res, numtalent) {
   var comicFolder = "./public/HolopageDesc/";
+  var imgFolder = "./public/HolopageTalent/";
+
+  fs.readdir(imgFolder, (err, files) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).send("Error reading image folder");
+    }
+
+    const targetFile = files.find((file) => file === `${numtalent}.png`);
+
+    if (!targetFile) {
+      return res.status(404).send(targetFile + " not found");
+    }
+  });
+
   fs.readdir(comicFolder, (err, files) => {
     if (err) {
       console.error(err);
@@ -125,7 +140,7 @@ function sendTalentdesc(res, numtalent) {
             <!DOCTYPE html>
             <html>
                 <head>
-                    <title>Holopage : Talent : ${numtalent}</title>
+                    <title>Holopage-Talent : ${numtalent}</title>
                     <link rel="stylesheet" href="/public/css/talent.css">
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
