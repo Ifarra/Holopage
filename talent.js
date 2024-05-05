@@ -210,7 +210,7 @@ function sendTalentdesc(res, numtalent) {
                           <div class="col-12 p-4">
                             <h1>${numtalent}</h1>
                             <p class="text-break">${data}</p>
-                            <p><a href="/article" class="btn btn-sm btn-outline-primary">Back</a></p>
+                            <p><a href="/talent" class="btn btn-sm btn-outline-primary">Back</a></p>
                           </div>
                           </div>
                         </div>
