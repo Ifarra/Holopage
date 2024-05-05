@@ -3066,13 +3066,16 @@ section.categories .category-content a {
 }
 
 .posts-entry .blog-entry-search-item .img-link {
-  width: 280px;
+  width: 250px;
   border-radius: 0;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
 }
 
 .posts-entry .blog-entry .img-link {
   position: relative;
-  overflow: hidden;
   display: inline-block;
   border-radius: 10px;
   margin-bottom: 10px;
