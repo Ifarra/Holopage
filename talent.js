@@ -47,6 +47,10 @@ function sendTalent(res) {
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/public/favicon_io/site.webmanifest">
         </head>
         <body style="background: url('/public/img/common_bg.svg');
             background-repeat: no-repeat;
@@ -157,6 +161,10 @@ function sendTalentdesc(res, numtalent) {
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/public/favicon_io/site.webmanifest">
                 </head>
                 <body style="background: url('/public/img/common_bg.svg');
             background-repeat: no-repeat;
@@ -173,7 +181,7 @@ function sendTalentdesc(res, numtalent) {
         </button>
         <div class="collapse navbar-collapse justify-content-center NewArrival__header--title" id="main_nav">
             <ul class="navbar-nav ms-1 me-1 pacifico " style="gap: 15px;">
-                <li class="nav-item"><a class="nav-link text-center" href="#"> - Article - </a></li>
+                <li class="nav-item"><a class="nav-link text-center" href="/article"> - Article - </a></li>
                 <li class="nav-item"><a class="nav-link text-center" href="/"> - Home - </a></li>
                 <li class="nav-item"><a class="nav-link text-center" href="/talent"> - Talent - </a></li>
             </ul>
