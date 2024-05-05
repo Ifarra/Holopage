@@ -64,7 +64,14 @@ function sendTalent(res) {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/public/css/talent.css">
         </head>
-        <body>
+        <body style="background: url('/public/img/common_bg.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            ">
 <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #fff; z-index: 1112;">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
@@ -156,7 +163,13 @@ function sendTalentdesc(res, numtalent) {
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 </head>
-                <body>
+                <body style="background: url('/public/img/common_bg.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;">
 
 <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #fff; z-index: 1112;">
     <div class="container-fluid">
