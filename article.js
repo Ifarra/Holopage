@@ -44,7 +44,7 @@ function sendTalent(res) {
                 <p>${content}</p>
                 <p><a href="/article/${folder}" class="btn btn-sm btn-outline-primary">Read More</a></p>
               </div>
-            </div>`;
+            </div><hr class="my-4">`;
           }
         } catch (err) {
           console.error(err);
