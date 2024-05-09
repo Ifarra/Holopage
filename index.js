@@ -10,5 +10,5 @@ const sendIndex = (res) => {
     res.send(data);
   });
 };
-
+``;
 module.exports = { sendIndex };
